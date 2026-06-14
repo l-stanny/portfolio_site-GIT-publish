@@ -1,0 +1,2 @@
+Web Application Prototype Design + Development, Lynn Stanikmas Sr. Web Application Developer, for federal end-client, United States Patent and Trademark Office (USPTO), a mobile, responsive, accessibility-compliant, dynamic application prototype from wireframes for integration into a Spring Boot / Thymeleaf deployment.\
+jQuery, jQuery UI, DataTables, Popper, and Bootstrap minified javascript library dependencies are included.
