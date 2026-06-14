@@ -1,0 +1,835 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>
+			Selected Goods and Services :: USPTO.gov :: Web Application Prototype
+		</title>
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@graph": [
+					{
+						"@type": "WebPage",
+						"name": "Selected Goods and Services :: USPTO.gov :: Web Application Prototype",
+						"description": "USPTO trademark efile web application goods services selection prototype by Lynn Stanikmas.",
+						"url": "https://www.lynnstanikmas.com/uspto/GS_selected.html",
+						"creator": {
+							"@type": "Person",
+							"name": "Lynn Stanikmas",
+							"url": "https://www.lynnstanikmas.com/resume.html",
+							"@id": "https://www.lynnstanikmas.com/resume.html"
+						},
+						"author": {
+							"@type": "Person",
+							"name": "Lynn Stanikmas",
+							"url": "https://www.lynnstanikmas.com/resume.html",
+							"@id": "https://www.lynnstanikmas.com/resume.html"
+						},
+						"datePublished": "2019-10-06T18:06:00-04:00",
+						"locationCreated": {
+							"@type": "Place",
+							"name": "Virginia, USA",
+							"address": {
+								"@type": "PostalAddress",
+								"addressLocality": "Red Oak",
+								"addressRegion": "Virginia",
+								"postalCode": "23964",
+								"addressCountry": "US"
+							}
+						},
+						"relatedLink": "https://www.lynnstanikmas.com",
+						"thumbnailUrl": "https://www.lynnstanikmas.com/images/thumbnail-gs-selected.png",
+						"keywords": "prototype, Javascript, UI, UX, dashboard, website prototype, jQuery, USPTO"
+					},
+					{
+						"@type": "ItemList",
+						"itemListElement": [
+							{
+								"@type": "ListItem",
+								"position": 1,
+								"item": {
+									"@id": "https://www.lynnstanikmas.com/uspto/dashboard.html",
+									"@type": "WebApplication",
+									"name": "eFile Homepage",
+									"operatingSystem": "Web",
+									"applicationCategory": "Trademark Filing Application Web Application"
+								}
+							},
+							{
+								"@type": "ListItem",
+								"position": 2,
+								"item": {
+									"@id": "https://www.lynnstanikmas.com/uspto/marks_layout_M017.html",
+									"@type": "WebPage",
+									"name": "Trademark Details"
+								}
+							},
+							{
+								"@type": "ListItem",
+								"position": 3,
+								"item": {
+									"@id": "https://www.lynnstanikmas.com/uspto/attorney_info_M010.html",
+									"@type": "WebPage",
+									"name": "Attorney Information"
+								}
+							},
+							{
+								"@type": "ListItem",
+								"position": 4,
+								"item": {
+									"@id": "https://www.lynnstanikmas.com/uspto/marks_stylized.html",
+									"@type": "WebPage",
+									"name": "Trademark Details"
+								}
+							},
+							{
+								"@type": "ListItem",
+								"position": 5,
+								"item": {
+									"@id": "https://www.lynnstanikmas.com/uspto/goods_and_services_table_M5.html",
+									"@type": "WebPage",
+									"name": "Goods and Services ID Manual"
+								}
+							},
+							{
+								"@type": "ListItem",
+								"position": 6,
+								"item": {
+									"@id": "https://www.lynnstanikmas.com/uspto/GS_selected.html",
+									"@type": "WebPage",
+									"name": "Goods and Services"
+								}
+							},
+							{
+								"@type": "ListItem",
+								"position": 7,
+								"item": {
+									"@id": "https://www.lynnstanikmas.com/uspto/statement_of_use.html",
+									"@type": "WebPage",
+									"name": "Statement of Use"
+								}
+							},
+							{
+								"@type": "ListItem",
+								"position": 8,
+								"item": {
+									"@id": "https://www.lynnstanikmas.com/uspto/manage_contacts.html",
+									"@type": "WebPage",
+									"name": "Manage Contacts"
+								}
+							},
+							{
+								"@type": "ListItem",
+								"position": 9,
+								"item": {
+									"@id": "https://www.lynnstanikmas.com/uspto/review_application.html",
+									"@type": "WebPage",
+									"name": "Review Application"
+								}
+							},
+							{
+								"@type": "ListItem",
+								"position": 10,
+								"item": {
+									"@id": "https://www.lynnstanikmas.com/uspto/submission_successful.html",
+									"@type": "WebPage",
+									"name": "Submission Successful"
+								}
+							}
+						],
+						"numberOfItems": 10
+					}
+				]
+			}
+		</script>
+		<meta name="author" content="Lynn Stanikmas" />
+		<meta
+			name="description"
+			content="USPTO trademark application efile goods services selection prototype by Lynn Stanikmas, Red Oak Virginia based web / UX / UI web application developer | UI designer"
+		/>
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/lynnstyles.css" />
+		<!-- Google tag (gtag.js) -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-VR2QGFS9KG"
+		></script>
+		<!-- favicons -->
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+		<!--[if IE]><link rel="shortcut icon" href="favicon.ico" /><![endif]-->
+		<link
+			rel="icon"
+			type="image/png"
+			href="images/favicon_responsive/favicon-96x96.png"
+			sizes="96x96"
+		/>
+		<link
+			rel="icon"
+			type="image/svg+xml"
+			href="images/favicon_responsive/favicon.svg"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="images/favicon_responsive/apple-touch-icon.png"
+		/>
+		<meta name="apple-mobile-web-app-title" content="Lynn Stanikmas" />
+	</head>
+	<body>
+		<div id="skipnav"><a href="#mainContent">Skip navigation</a></div>
+		<nav
+			class="navbar navbar-inverse navbar-fixed-top"
+			aria-label="site navigation"
+		>
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button
+						type="button"
+						class="navbar-toggle collapsed"
+						data-toggle="collapse"
+						data-target="#bs-example-navbar-collapse-1"
+						aria-expanded="false"
+					>
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a
+						class="navbar-brand"
+						href="https://www.uspto.gov"
+						target="_blank"
+						rel="noopener noreferrer"
+						tabindex="0"
+						><img
+							src="images/logo_top.png"
+							alt="US Trade and Patent Office logo"
+					/></a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="dashboard.html">Home</a>
+						</li>
+						<li>
+							<a href="#" aria-disabled="true">Applications / Registration</a>
+						</li>
+						<li class="dropdown">
+							<a
+								href="#"
+								class="dropdown-toggle"
+								data-toggle="dropdown"
+								role="button"
+								aria-haspopup="true"
+								aria-expanded="false"
+								tabindex="0"
+								aria-controls="actionsmenu"
+								id="actionsmenu"
+								>Actions<span class="caret"></span
+							></a>
+							<ul
+								class="dropdown-menu"
+								aria-label="actions submenu"
+								id="actionsmenu"
+								aria-labelledby="actionsmenu"
+							>
+								<li class="dropdown">
+									<a
+										href="#"
+										class="dropdown-toggle"
+										data-toggle="dropdown-submenu"
+										role="button"
+										aria-haspopup="true"
+										aria-expanded="false"
+										tabindex="0"
+										aria-controls="amendment"
+										id="amendment"
+										>File an Amendment<span class="caret"></span
+									></a>
+									<ul
+										class="dropdown-menu dropdown-submenu"
+										aria-label="amendments submenu"
+										id="amendment"
+										aria-labelledby="amendment"
+									>
+										<li>
+											<a href="#" aria-disabled="true">Voluntary Amendment</a>
+										</li>
+										<li role="separator" class="divider"></li>
+										<li>
+											<a href="#" aria-disabled="true"
+												>Post Approval/Publication/Post-Notice of Allowance
+												Amendment</a
+											>
+										</li>
+										<li role="separator" class="divider"></li>
+										<li>
+											<a href="#" aria-disabled="true"
+												>Amendment to Allege Use or Statement of Use</a
+											>
+										</li>
+										<li role="separator" class="divider"></li>
+										<li>
+											<a href="#" aria-disabled="true"
+												>Request to Delete Section 1(b) Basis</a
+											>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="#" aria-disabled="true">File a Petition</a>
+								</li>
+								<li role="separator" class="divider"></li>
+								<li>
+									<a href="#" aria-disabled="true">Respond to Office Action</a>
+								</li>
+								<li role="separator" class="divider"></li>
+								<li>
+									<a href="#" aria-disabled="true"
+										>File Request for Reconsideration</a
+									>
+								</li>
+								<li role="separator" class="divider"></li>
+								<li>
+									<a href="#" aria-disabled="true">File an Extension Request</a>
+								</li>
+								<li role="separator" class="divider"></li>
+								<li class="dropdown">
+									<a
+										href="#"
+										class="dropdown-toggle"
+										data-toggle="dropdown"
+										role="button"
+										aria-haspopup="true"
+										aria-expanded="false"
+										tabindex="0"
+										aria-controls="contacts"
+										id="contacts"
+										>Manage Contacts<span class="caret"></span
+									></a>
+									<ul
+										class="dropdown-menu dropdown-submenu"
+										aria-label="contacts submenu"
+										aria-labelledby="contacts"
+										id="contacts"
+									>
+										<li>
+											<a href="#" aria-disabled="true">Attorney</a>
+										</li>
+										<li role="separator" class="divider"></li>
+										<li>
+											<a href="#" aria-disabled="true">Owner</a>
+										</li>
+										<li role="separator" class="divider"></li>
+										<li>
+											<a href="#" aria-disabled="true">Correspondence</a>
+										</li>
+										<li role="separator" class="divider"></li>
+										<li>
+											<a href="#" aria-disabled="true"
+												>Domestic Representative</a
+											>
+										</li>
+										<li role="separator" class="divider"></li>
+										<li>
+											<a href="#" aria-disabled="true">Delegate</a>
+										</li>
+									</ul>
+								</li>
+								<li role="separator" class="divider"></li>
+								<li>
+									<a href="#" aria-disabled="true">Request Abandonment</a>
+								</li>
+								<li role="separator" class="divider"></li>
+								<li>
+									<a href="#" aria-disabled="true">File Post Registration</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" aria-disabled="true">Resources</a>
+						</li>
+						<li class="dropdown">
+							<a
+								href="#"
+								class="dropdown-toggle"
+								data-toggle="dropdown"
+								role="button"
+								aria-haspopup="true"
+								aria-expanded="false"
+								tabindex="0"
+								aria-controls="help"
+								id="help"
+								>Help<span class="caret"></span
+							></a>
+							<ul
+								class="dropdown-menu"
+								aria-label="help submenu"
+								id="help"
+								aria-labelledby="help"
+							>
+								<li>
+									<a href="#" aria-disabled="true">FAQs</a>
+								</li>
+								<li role="separator" class="divider"></li>
+								<li>
+									<a href="#" aria-disabled="true">Contact Us</a>
+								</li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a
+								href="#"
+								class="dropdown-toggle"
+								data-toggle="dropdown"
+								role="button"
+								aria-haspopup="true"
+								aria-expanded="false"
+								tabindex="0"
+								aria-controls="account"
+								id="account"
+								>Lynn Stanikmas<span class="caret"></span
+							></a>
+							<ul
+								class="dropdown-menu"
+								aria-label="account submenu"
+								id="account"
+								aria-labelledby="account"
+							>
+								<li>
+									<a href="#" aria-disabled="true">eFile</a>
+								</li>
+								<li role="separator" class="divider"></li>
+								<li>
+									<a href="#" aria-disabled="true">Account</a>
+								</li>
+								<li role="separator" class="divider"></li>
+								<li>
+									<a href="#" aria-disabled="true">Sign Out</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a
+								href="https://my.uspto.gov/"
+								class="orange"
+								aria-label="my U S P T O"
+								tabindex="0"
+								>MyUSPTO</a
+							>
+						</li>
+					</ul>
+					<br class="clear" />
+					<ul
+						class="nav navbar-nav navbar-right"
+						id="lowernav"
+						aria-label="fee menu"
+					>
+						<li class="dropdown" aria-live="assertive" aria-relevant="all">
+							<a
+								href="#"
+								class="dropdown-toggle"
+								data-toggle="dropdown"
+								role="button"
+								aria-haspopup="true"
+								aria-expanded="false"
+								tabindex="0"
+								aria-controls="classfees"
+								id="fees"
+								>Fees $<span id="displayfees">225</span
+								><span class="caret"></span
+							></a>
+							<ul
+								class="dropdown-menu"
+								id="classfees"
+								aria-label="class fees"
+								aria-labelledby="fees"
+							>
+								<li id="firstli" aria-live="assertive">
+									Basic Fees $<span>225</span>
+								</li>
+								<li id="classli" aria-live="assertive">
+									Extra Class Fee $<span>0</span>
+								</li>
+								<li aria-live="assertive" id="classfeesli">Total Classes 0</li>
+								<li id="lastli" aria-live="assertive">
+									Total Fee $<span>225</span>
+								</li>
+							</ul>
+						</li>
+						<li class="showhidemark">
+							<a
+								href="#"
+								class="glyphed"
+								id="togglepop"
+								aria-live="assertive"
+								aria-relevant="all"
+								tabindex="0"
+								><span
+									class="glyphicon glyphicon-picture"
+									aria-hidden="true"
+								></span
+								>Show My Mark</a
+							>
+						</li>
+						<li class="media visuallyhidden">
+							<img
+								src="./images/stylized_alt2.gif"
+								class="media-object img-responsive"
+								alt="your mark"
+							/>
+						</li>
+					</ul>
+					<br class="clear" />
+				</div>
+			</div>
+		</nav>
+		<div class="container-fluid" id="selgds">
+			<div class="row content">
+				<main class="col-xs-12 col-sm-9 col-md-9 col-lg-7" id="mainContent">
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="row">
+								<section
+									class="col-xs-12 steps breadcrumb-steps"
+									aria-label="progress tracker"
+								>
+									<div class="row displaycell">
+										<div class="col-xs-2 one done">
+											<div class="row">
+												<div class="col-xs-3 col-sm-5 col-md-4 col-lg-4 number">
+													<span>1</span>
+												</div>
+												<div class="col-xs-9 col-sm-7 col-md-8 col-lg-8">
+													<p class="first">Your details</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-xs-2 two done">
+											<div class="row">
+												<div class="col-xs-3 col-sm-5 col-md-4 col-lg-4 number">
+													<span>2</span>
+												</div>
+												<div class="col-xs-9 col-sm-7 col-md-8 col-lg-8">
+													<p>Trade mark details</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-xs-2 three active" aria-current="step">
+											<div class="row">
+												<div class="col-xs-3 col-sm-5 col-md-4 col-lg-4 number">
+													<span>3</span>
+												</div>
+												<div class="col-xs-9 col-sm-7 col-md-8 col-lg-8">
+													<p>Goods and services</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-xs-2 four">
+											<div class="row">
+												<div class="col-xs-3 col-sm-5 col-md-4 col-lg-4 number">
+													<span>4</span>
+												</div>
+												<div class="col-xs-9 col-sm-7 col-md-8 col-lg-8">
+													<p>Basis</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-xs-2 five">
+											<div class="row">
+												<div class="col-xs-3 col-sm-5 col-md-4 col-lg-4 number">
+													<span>5</span>
+												</div>
+												<div class="col-xs-9 col-sm-7 col-md-8 col-lg-8">
+													<p>Additional info</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-xs-2 six">
+											<div class="row">
+												<div class="col-xs-3 col-sm-5 col-md-4 col-lg-4 number">
+													<span>6</span>
+												</div>
+												<div class="col-xs-9 col-sm-7 col-md-8 col-lg-8">
+													<p>Confirm and pay</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+							</div>
+							<h1>Goods and Services</h1>
+							<div class="row">
+								<div class="col-xs-12" id="gsselected">
+									<div id="lead">
+										<p class="leadtext">
+											All of the selected goods and services are provided below.
+										</p>
+										<p class="sr-only"></p>
+									</div>
+									<div class="row">
+										<div class="col-xs-12">
+											<!--START selected panels-->
+											<!--panel one-->
+											<div
+												class="panel-group"
+												aria-live="assertive"
+												aria-relevant="removals"
+											>
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<div class="row">
+															<div class="col-xs-10">
+																<div class="col-xs-12">
+																	<div class="row">
+																		<div class="col-xs-5">
+																			<p class="panel-title number">
+																				Class 003
+																			</p>
+																		</div>
+																		<div class="col-xs-7">
+																			<p>Bar Soap</p>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="col-xs-2 closepans">
+																<button
+																	type="button"
+																	class="close closegspanels btn"
+																	aria-label="remove"
+																>
+																	<span
+																		class="glyphicon glyphicon-remove"
+																		aria-hidden="true"
+																	></span>
+																</button>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<!--panel two-->
+											<div
+												class="panel-group"
+												aria-live="assertive"
+												aria-relevant="removals"
+											>
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<div class="row">
+															<div class="col-xs-10">
+																<div class="col-xs-12">
+																	<div class="row">
+																		<div class="col-xs-5">
+																			<p class="panel-title number">
+																				Class 003
+																			</p>
+																		</div>
+																		<div class="col-xs-7">
+																			<p>Liquid Bar Soap</p>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="col-xs-2 closepans">
+																<button
+																	type="button"
+																	class="close closegspanels btn"
+																	aria-label="remove"
+																>
+																	<span
+																		class="glyphicon glyphicon-remove"
+																		aria-hidden="true"
+																	></span>
+																</button>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<!--panel three-->
+											<div
+												class="panel-group"
+												aria-live="assertive"
+												aria-relevant="removals"
+											>
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<div class="row">
+															<div class="col-xs-10">
+																<div class="col-xs-12">
+																	<div class="row">
+																		<div class="col-xs-5">
+																			<p class="panel-title number">
+																				Class 016
+																			</p>
+																		</div>
+																		<div class="col-xs-7">
+																			<p>Paper Bags</p>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="col-xs-2 closepans">
+																<button
+																	type="button"
+																	class="close closegspanels btn"
+																	aria-label="remove"
+																>
+																	<span
+																		class="glyphicon glyphicon-remove"
+																		aria-hidden="true"
+																	></span>
+																</button>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<!--END selected panels-->
+											<div class="row">
+												<div class="col-xs-12">
+													<p>
+														If you would like to add more, select a following
+														method to add additional goods and services.
+														<span class="weight600"
+															>Otherwise, continue on to add the filing
+															basis</span
+														>.
+													</p>
+													<div
+														class="inlinebuttons btn-group btn-group-justified"
+														role="group"
+														aria-label="search manual or manually upload"
+													>
+														<div class="btn-group">
+															<button
+																type="button"
+																class="btn-sm btn-success fill"
+																id="toidmanual"
+																value="searchidmanual"
+																disabled
+															>
+																Search ID Manual
+															</button>
+														</div>
+														<div class="btn-group">
+															<button
+																type="button"
+																class="btn-sm btn-success fill"
+																id="manual"
+																value="manualupload"
+																disabled
+															>
+																Manually Upload
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--prev / next buttons-->
+					<div
+						class="inlinebuttons btn-group btn-group-justified"
+						role="navigation"
+						aria-label="view previous or next page"
+						id="prevnxt"
+					>
+						<div class="btn-group">
+							<button
+								type="button"
+								class="btn btn-sm btn-default fill prev"
+								id=""
+								value="previous"
+							>
+								Previous
+							</button>
+						</div>
+						<div class="btn-group">
+							<button
+								type="button"
+								class="btn btn-sm btn-primary fill next"
+								id="selectednext"
+								value="next"
+							>
+								Next
+								<div class="round">
+									<span
+										class="glyphicon glyphicon-menu-right"
+										aria-hidden="true"
+									></span>
+								</div>
+							</button>
+						</div>
+					</div>
+				</main>
+			</div>
+			<!--END div content-->
+		</div>
+		<!--END div container-->
+		<!--jquery -->
+		<script src="js/jquery-3.7.1.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/lynnjqueryscript.js"></script>
+		<footer>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-3 col-md-3 col-lg-4">
+						<a href="https://www.uspto.gov/">
+							<div
+								class="footer-brand"
+								role="img"
+								aria-label="United States Office of Patent and Trademarks"
+							></div>
+						</a>
+					</div>
+					<div class="col-xs-9 col-md-9 col-lg-8">
+						<div class="row vcenter">
+							<div>
+								<p>
+									<span id="webPolicy" class="copyright-year"
+										><script
+											type="application/javascript"
+											src="js/copyright.js"
+										></script>
+										USPTO. All Rights Reserved. Displayed with permission for
+										portfolio purposes only.</span
+									>
+								</p>
+							</div>
+							<div>
+								<p>
+									<a
+										href="https://www.lynnstanikmas.com"
+										class="ls"
+										target="_blank"
+										rel="noopener noreferrer"
+										>Lynn Stanikmas, Contract Sr. Web Application Developer</a
+									>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
